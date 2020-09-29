@@ -1,3 +1,4 @@
+
 import { BrowserWindow } from 'electron';
 import { Application } from '../application';
 import { DIALOG_MARGIN_TOP, DIALOG_MARGIN } from '~/constants/design';
@@ -38,7 +39,7 @@ export class PreviewDialog extends PersistentDialog {
 
     this.send('visible', true, {
       id,
-      url: url.startsWith('wexond-error') ? errorURL : url,
+      url: url.startsWith('venom-error') ? errorURL : url,
       title,
       x: this.tab.x - 8,
     });

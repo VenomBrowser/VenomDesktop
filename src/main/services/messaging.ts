@@ -154,7 +154,7 @@ export const runMessagingService = (appWindow: AppWindow) => {
 
         if (item && item.type === 'password') {
           item.fields.password = await getPassword(
-            'wexond',
+            'venom',
             `${hostname}-${item.fields.username}`,
           );
         }
@@ -220,7 +220,7 @@ export const runMessagingService = (appWindow: AppWindow) => {
         );
       }
 
-      await setPassword('wexond', `${hostname}-${username}`, password);
+      await setPassword('venom', `${hostname}-${username}`, password);
 
       appWindow.send(`has-credentials-${view.id}`, true);
     });

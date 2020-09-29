@@ -68,7 +68,7 @@ export class View {
 
     // USER-AGENT:
     this.webContents.userAgent = this.webContents.userAgent
-      .replace(/ Wexond\\?.([^\s]+)/g, '')
+      .replace(/ Venom\\?.([^\s]+)/g, '')
       .replace(/ Electron\\?.([^\s]+)/g, '')
       .replace(/Chrome\\?.([^\s]+)/g, 'Chrome/83.0.4103.97');
 
@@ -178,7 +178,7 @@ export class View {
         if (isMainFrame && errorCode !== -3) {
           this.errorURL = validatedURL;
 
-          this.webContents.loadURL(`wexond-error://network-error/${errorCode}`);
+          this.webContents.loadURL(`venom-error://network-error/${errorCode}`);
         }
       },
     );

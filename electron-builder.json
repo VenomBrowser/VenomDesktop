@@ -1,9 +1,6 @@
 {
-  "appId": "org.wexond.wexond",
-  "productName": "Wexond",
-  "nsis": {
-    "include": "static/installer.nsh"
-  },
+  "appId": "com.avasight.venom",
+  "productName": "Venom",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
@@ -25,25 +22,13 @@
       }
     ]
   },
-  "win": {
-    "target": [
-      {
-        "target": "nsis-web",
-        "arch": ["x64", "ia32"]
-      },
-      {
-        "target": "zip",
-        "arch": ["x64", "ia32"]
-      }
-    ]
-  },
   "mac": {
     "category": "public.app-category.navigation"
   },
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "Wexond",
+      "description": "Venom",
       "role": "Viewer",
       "ext": "html"
     }
