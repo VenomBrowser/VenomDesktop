@@ -4,7 +4,7 @@
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
-    "output": "dist",
+    "output": "packages",
     "buildResources": "static/icons"
   },
   "files": ["build/**/*", "package.json", "static/**/*"],
