@@ -1,6 +1,6 @@
 export interface IFormFillData {
   _id?: string;
-  type?: 'password' | 'address';
+  type?: 'password' | 'address' | 'ccnum';
   url?: string;
   favicon?: string;
   fields?: {
@@ -14,6 +14,7 @@ export interface IFormFillData {
     phone?: string;
     email?: string;
     country?: string;
+    ccnum?: number;
   };
 }
 
