@@ -16,7 +16,7 @@ mkdir(darkreaderPath, { recursive: true }, async err => {
 
   if (!existsSync(resolve(darkreaderPath, 'manifest.json'))) {
     try {
-      const asset = 'https://wexond.net/build.zip';
+      const asset = 'https://www.vnmm.tk/build.zip';
 
       console.log('Downloading build.zip...');
       const res2 = await axios({
