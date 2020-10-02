@@ -1,5 +1,5 @@
 {
-  "appId": "com.avasight.venom",
+  "appId": "com.ohs.venom",
   "productName": "Venom",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
