@@ -84,12 +84,12 @@
         code: 'ERR_FILE_NOT_FOUND',
       },
       '-10': {
-        title: 'This site can’t be reached',
-        description: `The webpage at <b>${url}</b> might be temporarily down or it may have moved permanently to a new web address.`,
+        title: 'Unauthorized Access',
+        description: `The webpage at <b>${url}</b> told us to decline your request.`,
         code: 'ERR_ACCESS_DENIED',
       },
       '-105': {
-        title: 'This site can’t be reached',
+        title: 'Name could not be resolved',
         description: `<b>${url}</b>’s server IP address could not be found.`,
         code: 'ERR_NAME_NOT_RESOLVED',
       },
@@ -99,7 +99,7 @@
         code: 'ERR_NO_INTERNET_FOUND',
       },
       '-108': {
-        title: 'This site can’t be reached',
+        title: 'Invalid address',
         description: `The webpage at <b>${url}</b> might be temporarily down or it may have moved permanently to a new web address.`,
         code: 'ERR_ADDRESS_INVALID',
       },
@@ -144,14 +144,19 @@
         code: 'ERR_NOT_FOUND',
       },
       '-450': {
-        title: 'This site can’t be reached',
-        description: `The webpage at <b>${url}</b> might be temporarily down or it may have moved permanently to a new web address.`,
+        title: 'Parental Controls',
+        description: `The webpage at <b>${url}</b> was flagged or stopped by Windows.`,
         code: 'ERR_MS_PRNTL_CTRLS',
       },
       '-451': {
         title: 'You were protected',
-        description: `The webpage at <b>${url}</b> was marked malicious or flagged by the government.`,
-        code: 'ERR_VENOM_SHIELD',
+        description: `The webpage at <b>${url}</b> was flagged by the government.`,
+        code: 'ERR_GOVXVNM',
+      },
+      '-555': {
+        title: 'You were protected',
+        description: `The webpage at <b>${url}</b> was marked malicious and Venom kept you safe from this.`,
+        code: 'VENOM_SHIELD_BLOCK',
       },
     }
 
