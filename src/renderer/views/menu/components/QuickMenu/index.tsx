@@ -21,9 +21,7 @@ import {
   ICON_TAB,
   ICON_WINDOW,
   ICON_INCOGNITO,
-  ICON_HISTORY,
   ICON_BOOKMARKS,
-  ICON_SETTINGS,
   ICON_EXTENSIONS,
   ICON_DOWNLOAD,
   ICON_FIND,
@@ -131,10 +129,6 @@ export const QuickMenu = observer(() => {
             <Shortcut>Ctrl+Shift+N</Shortcut>
           </MenuItem>
           <Line />
-          <MenuItem onClick={goToWebUIPage('history')} arrow>
-            <Icon icon={ICON_HISTORY} />
-            <MenuItemTitle>History</MenuItemTitle>
-          </MenuItem>
           <MenuItem onClick={goToWebUIPage('bookmarks')} arrow>
             <Icon icon={ICON_BOOKMARKS} />
             <MenuItemTitle>Bookmarks</MenuItemTitle>
@@ -144,10 +138,6 @@ export const QuickMenu = observer(() => {
             <MenuItemTitle>Downloads</MenuItemTitle>
           </MenuItem>
           <Line />
-          <MenuItem onClick={goToWebUIPage('settings')}>
-            <Icon icon={ICON_SETTINGS} />
-            <MenuItemTitle>Settings</MenuItemTitle>
-          </MenuItem>
           {/* TODO: <MenuItem onClick={goToWebUIPage('extensions')}> */}
           <MenuItem
             onClick={goToURL(
