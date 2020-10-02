@@ -3,8 +3,6 @@ import { NavigationDrawer } from '../NavigationDrawer';
 import { observer } from 'mobx-react-lite';
 import { WEBUI_BASE_URL, WEBUI_URL_SUFFIX } from '~/constants/files';
 import {
-  ICON_SETTINGS,
-  ICON_HISTORY,
   ICON_BOOKMARKS,
   ICON_EXTENSIONS,
   ICON_DOWNLOAD,
@@ -37,12 +35,6 @@ const MenuItem = observer(
 export const GlobalNavigationDrawer = () => {
   return (
     <NavigationDrawer dense title="">
-      <MenuItem name="settings" icon={ICON_SETTINGS}>
-        Settings
-      </MenuItem>
-      <MenuItem name="history" icon={ICON_HISTORY}>
-        History
-      </MenuItem>
       <MenuItem name="bookmarks" icon={ICON_BOOKMARKS}>
         Bookmarks
       </MenuItem>
