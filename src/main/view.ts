@@ -22,7 +22,7 @@ export class View {
   public browserView: BrowserView;
 
   public isNewTab = false;
-  public homeUrl: string;
+  public homeUrl: 'https://duckduckgo.com';
   public favicon = '';
   public incognito = false;
 
@@ -75,7 +75,7 @@ export class View {
     (this.webContents as any).windowId = window.win.id;
 
     this.window = window;
-    this.homeUrl = url;
+    this.homeUrl = 'https://duckduckgo.com';
 
     this.webContents.session.webRequest.onBeforeSendHeaders(
       (details, callback) => {
