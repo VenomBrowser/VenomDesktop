@@ -44,6 +44,9 @@ export const GlobalNavigationDrawer = () => {
       <MenuItem name="extensions" icon={ICON_EXTENSIONS}>
         Extensions
       </MenuItem>
+      <MenuItem name="ohsp" icon={ICON_EXTENSIONS}>
+        OHS Dashboard (op2)
+      </MenuItem>
     </NavigationDrawer>
   );
 };
