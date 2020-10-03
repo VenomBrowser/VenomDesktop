@@ -1,6 +1,6 @@
 {
   "name": "venom",
-  "version": "8.3.7",
+  "version": "9.3.7",
   "sideEffects": false,
   "description": "Extensible, fast and innovative web browser with material UI.",
   "keywords": [
@@ -13,7 +13,7 @@
   ],
   "homepage": "https://github.com/wexond/wexond#readme",
   "main": "build/main.bundle.js",
-  "author": "Offshore Hosting Solutions <webmaster@tpl-hal.com>",
+  "author": "OHS Incorporated <webmaster@tpl-hal.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wexond/wexond.git"
