@@ -1,6 +1,6 @@
 {
   "name": "venom",
-  "version": "9.3.7",
+  "version": "10.3.7",
   "sideEffects": false,
   "description": "Extensible, fast and innovative web browser with material UI.",
   "keywords": [
