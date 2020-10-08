@@ -1,6 +1,6 @@
 {
-  "appId": "com.ohs.venom",
-  "productName": "Venom",
+  "appId": "com.ohs.venomdsktp",
+  "productName": "Venom DE",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
@@ -28,7 +28,7 @@
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "Venom",
+      "description": "Venom DE",
       "role": "Viewer",
       "ext": "html"
     }
