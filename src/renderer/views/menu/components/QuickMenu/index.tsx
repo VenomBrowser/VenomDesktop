@@ -153,6 +153,14 @@ export const QuickMenu = observer(() => {
             <MenuItemTitle>Find in page</MenuItemTitle>
             <Shortcut>Ctrl+F</Shortcut>
           </MenuItem>
+           <MenuItem
+            onClick={goToURL(
+              'https://ohsinaction.github.io/ohs.sbportal',
+            )}
+          >
+            <Icon icon={ICON_TAB} />
+            <MenuItemTitle>SafeBrowse Portal</MenuItemTitle>
+          </MenuItem>
           <MenuItem onClick={onPrintClick}>
             <Icon icon={ICON_PRINT} />
             <MenuItemTitle>Print</MenuItemTitle>
