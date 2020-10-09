@@ -1,8 +1,8 @@
 {
   "name": "venom",
-  "version": "10.3.8",
+  "version": "11.3.8",
   "sideEffects": false,
-  "description": "Extensible, fast and innovative web browser with material UI.",
+  "description": "Venom is the most secure and fast browser ever.",
   "keywords": [
     "web-browser",
     "material",
@@ -11,9 +11,9 @@
     "mobx",
     "styled-components"
   ],
-  "homepage": "https://github.com/wexond/wexond#readme",
+  "homepage": "https://github.com/venombrowser/venomdesktop#readme",
   "main": "build/main.bundle.js",
-  "author": "OHS Incorporated <webmaster@tpl-hal.com>",
+  "author": "OHS LLC <bcamarata0@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wexond/wexond.git"
