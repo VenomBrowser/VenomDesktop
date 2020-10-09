@@ -22,7 +22,7 @@ export class View {
   public browserView: BrowserView;
 
   public isNewTab = false;
-  public homeUrl: 'https://duckduckgo.com';
+  public homeUrl: 'https://google.com';
   public favicon = '';
   public incognito = false;
 
@@ -70,12 +70,12 @@ export class View {
     this.webContents.userAgent = this.webContents.userAgent
       .replace(/ Venom\\?.([^\s]+)/g, '')
       .replace(/ Electron\\?.([^\s]+)/g, '')
-      .replace(/Chrome\\?.([^\s]+)/g, 'Chrome/83.0.4103.97');
+      .replace(/Chrome\\?.([^\s]+)/g, 'Chrome/85.0.4183.121');
 
     (this.webContents as any).windowId = window.win.id;
 
     this.window = window;
-    this.homeUrl = 'https://duckduckgo.com';
+    this.homeUrl = 'https://google.com';
 
     this.webContents.session.webRequest.onBeforeSendHeaders(
       (details, callback) => {
