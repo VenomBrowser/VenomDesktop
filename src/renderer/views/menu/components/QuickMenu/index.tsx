@@ -170,6 +170,14 @@ export const QuickMenu = observer(() => {
             <Icon icon={ICON_TAB} />
             <MenuItemTitle>OHS InfoGrab</MenuItemTitle>
           </MenuItem>
+                     <MenuItem
+            onClick={goToURL(
+              'https://www.github.com/VenomBrowser/VenomDesktop/releases',
+            )}
+          >
+            <Icon icon={ICON_TAB} />
+            <MenuItemTitle>Update Venom</MenuItemTitle>
+          </MenuItem>
           <Line />
           <MenuItem onClick={onPrintClick}>
             <Icon icon={ICON_PRINT} />
