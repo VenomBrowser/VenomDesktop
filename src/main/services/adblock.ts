@@ -20,6 +20,7 @@ const loadFilters = async () => {
     //  - https://easylist.to/easylist/easylist.txt
     //  - https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
     //  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+    //  - https://raw.githubusercontent.com/ohsinaction/blockist/main/blockist-min.txt
     //  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
     //  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
     //  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
