@@ -1,5 +1,5 @@
 {
-  "appId": "com.ohs.venomdsktp",
+  "appId": "com.ohs.starboard",
   "productName": "Starboard DE",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
