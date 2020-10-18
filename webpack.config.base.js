@@ -152,7 +152,7 @@ const getHtml = (scope, name, entries = []) => {
   }
 
   return new HtmlWebpackPlugin({
-    title: 'Venom',
+    title: 'Starboard',
     template: 'static/pages/app.html',
     filename: `${name}.html`,
     excludeChunks,

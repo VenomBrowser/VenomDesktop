@@ -9,7 +9,7 @@ import { Application } from './application';
 export const isNightly = app.name === 'venom-nightly';
 
 app.allowRendererProcessReuse = true;
-app.name = isNightly ? 'Venom Nightly' : 'Venom';
+app.name = isNightly ? 'Starboard Nightly' : 'Starboard';
 
 (process.env as any)['ELECTRON_DISABLE_SECURITY_WARNINGS'] = true;
 

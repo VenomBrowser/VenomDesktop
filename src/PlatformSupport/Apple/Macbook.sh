@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /Applications
-./Venom\ DE.app
+./Starboard\ DE.app

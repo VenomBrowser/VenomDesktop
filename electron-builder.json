@@ -1,6 +1,6 @@
 {
   "appId": "com.ohs.venomdsktp",
-  "productName": "Venom DE",
+  "productName": "Starboard DE",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
@@ -28,7 +28,7 @@
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "Venom DE",
+      "description": "Starboard DE",
       "role": "Viewer",
       "ext": "html"
     }

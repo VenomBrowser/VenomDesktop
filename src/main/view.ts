@@ -68,7 +68,7 @@ export class View {
 
     // USER-AGENT:
     this.webContents.userAgent = this.webContents.userAgent
-      .replace(/ Venom\\?.([^\s]+)/g, '')
+      .replace(/ Starboard\\?.([^\s]+)/g, '')
       .replace(/ Electron\\?.([^\s]+)/g, '')
       .replace(/Chrome\\?.([^\s]+)/g, 'Chrome/85.0.4183.121');
 
