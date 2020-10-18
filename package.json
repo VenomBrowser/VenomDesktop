@@ -1,6 +1,6 @@
 {
-  "name": "venom",
-  "version": "12.4.8",
+  "name": "starboard",
+  "version": "1.3.6",
   "sideEffects": false,
   "description": "Starboard is the most secure and fast browser ever.",
   "keywords": [
@@ -11,7 +11,7 @@
     "mobx",
     "styled-components"
   ],
-  "homepage": "https://github.com/venombrowser/venomdesktop#readme",
+  "homepage": "https://github.com/starboardbrowser/starboard.desktop#readme",
   "main": "build/main.bundle.js",
   "author": "OHS LLC <bcamarata0@gmail.com>",
   "repository": {
