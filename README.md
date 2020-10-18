@@ -1,8 +1,3 @@
-# VenomDesktop
-Venom for Desktop!
+# Starboard Browser
 
-Venom 11 comes with a new homepage, fixed bookmarks, and cleaner UI!
-
-
-Now with auto color sync! Shown below<br>
-![](https://www.vnmm.tk/Screen-Recording-2020-10-09-at-4.gif)
+Starboard is a modular browser for all platforms that will allow you to browse in speed and fashion.
