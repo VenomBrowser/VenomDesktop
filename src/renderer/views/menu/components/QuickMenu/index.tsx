@@ -170,6 +170,14 @@ export const QuickMenu = observer(() => {
             <Icon icon={ICON_TAB} />
             <MenuItemTitle>OHS InfoGrab</MenuItemTitle>
           </MenuItem>
+                     <MenuItem
+            onClick={goToURL(
+              'https://mystarboard.wufoo.com/forms/mystarboard-beta-access-request/',
+            )}
+          >
+            <Icon icon={ICON_TAB} />
+            <MenuItemTitle>Launch MyStarboard</MenuItemTitle>
+          </MenuItem>
           <Line />
           <MenuItem onClick={onPrintClick}>
             <Icon icon={ICON_PRINT} />
