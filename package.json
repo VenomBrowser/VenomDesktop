@@ -1,6 +1,6 @@
 {
   "name": "starboard",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "sideEffects": false,
   "description": "Starboard is the most secure and fast browser ever.",
   "keywords": [
@@ -103,5 +103,7 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "aquasdktools": "1.2.0"
+  }
 }
