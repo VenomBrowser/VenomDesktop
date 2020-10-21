@@ -1,6 +1,6 @@
 {
-  "appId": "com.ohs.starboard",
-  "productName": "Starboard DE",
+  "appId": "com.starboard.standard",
+  "productName": "Starboard Standard",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
@@ -28,7 +28,7 @@
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "Starboard DE",
+      "description": "Starboard Standard",
       "role": "Viewer",
       "ext": "html"
     }
