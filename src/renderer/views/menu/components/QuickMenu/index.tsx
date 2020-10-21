@@ -154,28 +154,12 @@ export const QuickMenu = observer(() => {
             <Shortcut>Ctrl+F</Shortcut>
           </MenuItem>
           <Line />
-           <MenuItem
-            onClick={goToURL(
-              'https://ohsinaction.github.io/ohs.sbportal',
-            )}
-          >
-            <Icon icon={ICON_TAB} />
-            <MenuItemTitle>SafeBrowse Portal</MenuItemTitle>
-          </MenuItem>
-           <MenuItem
-            onClick={goToURL(
-              'https://ohsinaction.github.io/vsyncig/12',
-            )}
-          >
-            <Icon icon={ICON_TAB} />
-            <MenuItemTitle>OHS InfoGrab</MenuItemTitle>
-          </MenuItem>
                      <MenuItem
             onClick={goToURL(
               'https://mystarboard.wufoo.com/forms/mystarboard-beta-access-request/',
             )}
           >
-            <Icon icon={ICON_TAB} />
+            <Icon icon={ICON_FIRE} />
             <MenuItemTitle>Launch MyStarboard</MenuItemTitle>
           </MenuItem>
           <Line />
