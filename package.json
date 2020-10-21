@@ -1,6 +1,6 @@
 {
-  "name": "starboard",
-  "version": "1.4.6",
+  "name": "starboardstandard",
+  "version": "1.4.7",
   "sideEffects": false,
   "description": "Starboard is the most secure and fast browser ever.",
   "keywords": [
@@ -16,10 +16,10 @@
   "author": "Offshore Hosting Solutions <bcamarata0@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wexond/wexond.git"
+    "url": "git+https://github.com/starboardbrowser/starboard.desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/wexond/wexond/issues"
+    "url": "https://github.com/starboardbrowser/starboard.desktop/issues"
   },
   "scripts": {
     "dist": "electron-builder",
