@@ -23,10 +23,6 @@ echo "Dependencies have been downloaded."
 echo "Installing Starboard..."
 sudo dpkg -i starboardforamd.deb
 
-echo "Writing Logs & Finishing Up..."
+echo "Finishing Up..."
 cd /home
-cd ohsinternal
-touch InstallerLog.txt
-cat "Successfully found all deps and installed." >> InstallerLog.txt
-cd 
 echo "Starboard has been downloaded. Thank you."
