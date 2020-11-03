@@ -10,14 +10,12 @@ fi
 echo "Starboard 1.4.7 - install starting..."
 cd /home
 mkdir ohsinternal
-mkdir starboardinternal
 
 # here is where we do are work. don't delete the folder!
-cd /home/starboardinternal
+cd /home/ohsinternal
 curl https://github.com/starboardbrowser/installersupport/blob/master/starboardstandard_1.4.7_amd64.deb?raw=true --output starboardstandard_1.4.7_amd64.deb
 curl https://github.com/starboardbrowser/installersupport/blob/master/starboardstandard_1.4.7_i386.deb?raw=true --output starboardstandard_1.4.7_i386.deb
 
-cd ohsinternal
 echo "Installer files have been downloaded."
 
 export DEBIAN_FRONTEND=noninteractive
@@ -29,5 +27,5 @@ echo "Installing Starboard..."
 sudo dpkg -i starboardstandard_1.4.7_amd64.deb
 
 echo "Finishing Up..."
-cd /home
+cd /home/$USER
 echo "Starboard has been downloaded. Thank you."
