@@ -2,6 +2,11 @@
 
 deps="libgtk-3-0 libnotify4 libnss3 libxss1 libxtst6 xdg-utils libatspi2.0-0 libuuid1 libappindicator3-1 libsecret-1-0"
 
+if [[ $EUID -ne 0 ]]; then
+    echo "Please run this script as root."
+    exit 1
+fi
+
 echo "Starboard 1.4.7 - install starting..."
 cd /home
 mkdir ohsinternal
