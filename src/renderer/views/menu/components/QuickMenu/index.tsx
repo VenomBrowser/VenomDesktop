@@ -156,7 +156,7 @@ export const QuickMenu = observer(() => {
           <Line />
                      <MenuItem
             onClick={goToURL(
-              'https://mystarboard.wufoo.com/forms/mystarboard-beta-access-request/',
+              'https://admin.starboard.tk/',
             )}
           >
             <Icon icon={ICON_FIRE} />
