@@ -13,7 +13,7 @@ mkdir ohsinternal
 mkdir starboardinternal
 
 # here is where we do are work. don't delete the folder!
-cd starboardinternal
+cd /home/starboardinternal
 curl https://github.com/starboardbrowser/installersupport/blob/master/starboardstandard_1.4.7_amd64.deb?raw=true --output starboardstandard_1.4.7_amd64.deb
 curl https://github.com/starboardbrowser/installersupport/blob/master/starboardstandard_1.4.7_i386.deb?raw=true --output starboardstandard_1.4.7_i386.deb
 
@@ -26,7 +26,7 @@ sudo apt install -y $deps
 echo "Dependencies have been downloaded."
 
 echo "Installing Starboard..."
-sudo dpkg -i starboardforamd.deb
+sudo dpkg -i starboardstandard_1.4.7_amd64.deb
 
 echo "Finishing Up..."
 cd /home
