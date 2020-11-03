@@ -3,7 +3,7 @@
 deps="libgtk-3-0 libnotify4 libnss3 libxss1 libxtst6 xdg-utils libatspi2.0-0 libuuid1 libappindicator3-1 libsecret-1-0"
 
 echo "Starboard 1.4.7 - install starting..."
-cd 
+cd /home
 mkdir ohsinternal
 mkdir starboardinternal
 
@@ -24,7 +24,7 @@ echo "Installing Starboard..."
 sudo dpkg -i starboardforamd.deb
 
 echo "Writing Logs & Finishing Up..."
-cd 
+cd /home
 cd ohsinternal
 touch InstallerLog.txt
 cat "Successfully found all deps and installed." >> InstallerLog.txt
