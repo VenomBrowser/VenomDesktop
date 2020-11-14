@@ -1,6 +1,6 @@
 {
   "name": "starboard",
-  "version": "1.4.9",
+  "version": "1.5.0",
   "sideEffects": false,
   "description": "Starboard is the most secure and fast browser ever.",
   "keywords": [
@@ -32,6 +32,7 @@
     "start": "electron .",
     "watch": "concurrently \"npm run dev-renderer\" \" cross-env DEV=1 webpack\" \"cross-env DEV=1 webpack-dev-server --config webpack.config.web.js\"",
     "compile-win32": "npm run build && electron-builder -w",
+    "compile": "npm run build && electron-builder -mwl",
     "compile-darwin": "npm run build && electron-builder -m",
     "compile-linux": "npm run build && electron-builder -l",
     "lint": "eslint \"src/**/*.ts*\" \"src/**/*.tsx*\"",
