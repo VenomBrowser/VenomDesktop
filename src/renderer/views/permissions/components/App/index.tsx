@@ -38,7 +38,7 @@ export const App = hot(
       <ThemeProvider theme={{ ...store.theme }}>
         <StyledApp>
           <UIStyle />
-          <Title>{store.domain} wants to:</Title>
+          <Title>{store.domain} is asking to:</Title>
           <Permissions>
             {store.permissions.map((item) => (
               <Permission key={item}>{getText(item)}</Permission>
