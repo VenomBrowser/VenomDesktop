@@ -153,16 +153,6 @@ export const QuickMenu = observer(() => {
             <MenuItemTitle>Find in page</MenuItemTitle>
             <Shortcut>Ctrl+F</Shortcut>
           </MenuItem>
-          <Line />
-                     <MenuItem
-            onClick={goToURL(
-              'https://admin.starboard.tk/',
-            )}
-          >
-            <Icon icon={ICON_FIRE} />
-            <MenuItemTitle>Launch MyStarboard</MenuItemTitle>
-          </MenuItem>
-          <Line />
           <MenuItem onClick={onPrintClick}>
             <Icon icon={ICON_PRINT} />
             <MenuItemTitle>Print</MenuItemTitle>
