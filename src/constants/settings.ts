@@ -53,7 +53,7 @@ export const DEFAULT_SEARCH_ENGINES = [
 ];
 
 export const DEFAULT_SETTINGS: ISettings = {
-  theme: 'venom-light',
+  theme: 'starboard-light',
   darkContents: false,
   shield: true,
   multrin: true,

@@ -178,7 +178,7 @@ export class View {
         if (isMainFrame && errorCode !== -3) {
           this.errorURL = validatedURL;
 
-          this.webContents.loadURL(`venom-error://network-error/${errorCode}`);
+          this.webContents.loadURL(`starboard-error://network-error/${errorCode}`);
         }
       },
     );

@@ -122,7 +122,7 @@ if (
 const settings = ipcRenderer.sendSync('get-settings-sync');
 if (
   window.location.href.startsWith(WEBUI_BASE_URL) ||
-  window.location.protocol === 'venom-error:'
+  window.location.protocol === 'starboard-error:'
 ) {
   (async function () {
     const w = await webFrame.executeJavaScript('window');

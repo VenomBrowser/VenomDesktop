@@ -49,7 +49,7 @@ function getIcon(
     }
   }
 
-  if (Application.instance.settings.object.theme === 'venom-dark') {
+  if (Application.instance.settings.object.theme === 'starboard-dark') {
     if (isFolder) {
       return getPath('folder_light');
     } else {

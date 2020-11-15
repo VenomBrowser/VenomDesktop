@@ -6,7 +6,7 @@ import { ipcMain, app, webContents } from 'electron';
 import { platform } from 'os';
 import { Application } from './application';
 
-export const isNightly = app.name === 'venom-nightly';
+export const isNightly = app.name === 'starboard-nightly';
 
 app.allowRendererProcessReuse = true;
 app.name = isNightly ? 'Starboard Nightly' : 'Starboard';

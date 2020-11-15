@@ -4,7 +4,7 @@ import { parse } from 'url';
 
 protocol.registerSchemesAsPrivileged([
   {
-    scheme: 'venom',
+    scheme: 'starboard',
     privileges: {
       bypassCSP: true,
       secure: true,
@@ -18,7 +18,7 @@ protocol.registerSchemesAsPrivileged([
 
 export const registerProtocol = (session: Electron.Session) => {
   session.protocol.registerFileProtocol(
-    'venom-error',
+    'starboard-error',
     (request, callback: any) => {
       const parsed = parse(request.url);
 
