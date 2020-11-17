@@ -22,7 +22,7 @@ assignees: ''
 **Details:**
  - Operating System: 
  - Wexond version: 
- - Last known working Wexond version: 
+ - Last known working Starboard version: 
 
 **Additional context**
 <!-- Add any other context about the problem here. -->
