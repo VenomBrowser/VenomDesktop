@@ -21,7 +21,7 @@ assignees: ''
 
 **Details:**
  - Operating System: 
- - Wexond version: 
+ - Starboard version: 
  - Last known working Starboard version: 
 
 **Additional context**
