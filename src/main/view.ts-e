@@ -313,7 +313,7 @@ export class View {
     if (
       url !== this.lastUrl &&
       !url.startsWith(WEBUI_BASE_URL) &&
-      !url.startsWith('wexond-error://') &&
+      !url.startsWith('starboard-error://') &&
       !this.incognito
     ) {
       const historyItem: IHistoryItem = {
