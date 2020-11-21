@@ -22,7 +22,7 @@ export class View {
   public browserView: BrowserView;
 
   public isNewTab = false;
-  public homeUrl: 'https://google.com';
+  public homeUrl: 'http://ekoru.org';
   public favicon = '';
   public incognito = false;
 
