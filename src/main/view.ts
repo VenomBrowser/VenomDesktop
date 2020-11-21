@@ -22,7 +22,7 @@ export class View {
   public browserView: BrowserView;
 
   public isNewTab = false;
-  public homeUrl: 'https://google.com';
+  public homeUrl: 'http://ekoru.org';
   public favicon = '';
   public incognito = false;
 
@@ -75,7 +75,7 @@ export class View {
     (this.webContents as any).windowId = window.win.id;
 
     this.window = window;
-    this.homeUrl = 'https://google.com';
+    this.homeUrl = 'http://ekoru.org';
 
     this.webContents.session.webRequest.onBeforeSendHeaders(
       (details, callback) => {
