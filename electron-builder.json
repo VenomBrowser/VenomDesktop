@@ -4,7 +4,7 @@
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
-    "output": "packages",
+    "output": "compiled",
     "buildResources": "static/icons"
   },
   "files": ["build/**/*", "package.json", "static/**/*"],
@@ -31,6 +31,60 @@
       "description": "Starboard",
       "role": "Viewer",
       "ext": "html"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "pdf"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "js"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "css"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "php"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "htm"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "shtml"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "webp"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "xht"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
+      "ext": "xhtml"
     }
   ]
 }
