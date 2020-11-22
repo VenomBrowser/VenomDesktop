@@ -28,13 +28,13 @@
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "html"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "pdf"
     },
@@ -52,37 +52,37 @@
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "php"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "htm"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "shtml"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "webp"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "xht"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "STARBOARD",
       "role": "Viewer",
       "ext": "xhtml"
     }
