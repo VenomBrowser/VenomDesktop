@@ -1,5 +1,5 @@
 {
-  "appId": "io.ohs.starboard",
+  "appId": "org.starboard.signedpenalty",
   "productName": "STARBOARD",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
