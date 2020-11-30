@@ -13,7 +13,7 @@
   ],
   "homepage": "https://github.com/starboardbrowser/starboard.desktop#readme",
   "main": "build/main.bundle.js",
-  "author": "Offshore Hosting Solutions <bcamarata0@gmail.com>",
+  "author": "Starboard Operations Inc. <bcamarata0@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/starboardbrowser/starboard.desktop.git"
