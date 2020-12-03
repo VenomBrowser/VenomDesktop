@@ -1,6 +1,6 @@
 {
   "name": "starboard",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "sideEffects": false,
   "description": "Starboard is the most secure and fast browser ever.",
   "keywords": [
@@ -22,14 +22,13 @@
     "url": "https://github.com/starboardbrowser/starboard.desktop/issues"
   },
   "scripts": {
-    "dist": "electron-builder",
     "dev-renderer": "cross-env DEV=1 webpack-dev-server --config webpack.config.renderer.js",
     "build-renderer": "webpack --config webpack.config.renderer.js",
     "pre-renderer": "cross-env PREBUILD=1 npm run build-renderer",
     "dev": "cross-env START=1 npm run watch",
     "build": "npm run pre-renderer && concurrently \"npm run build-renderer\" \"webpack\" \"webpack --config webpack.config.web.js\"",
     "ci-build": "node scripts/ci-build.js",
-    "start": "electron .",
+    "debug-ci": "electron .",
     "watch": "concurrently \"npm run dev-renderer\" \" cross-env DEV=1 webpack\" \"cross-env DEV=1 webpack-dev-server --config webpack.config.web.js\"",
     "compile": "npm run build && electron-builder -mwl",
     "lint": "eslint \"src/**/*.ts*\" \"src/**/*.tsx*\"",
