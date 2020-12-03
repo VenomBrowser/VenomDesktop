@@ -48,6 +48,12 @@
       "name": "Document",
       "description": "Starboard",
       "role": "Viewer",
+      "ext": "stdocx"
+    },
+    {
+      "name": "Document",
+      "description": "Starboard",
+      "role": "Viewer",
       "ext": "css"
     },
     {
