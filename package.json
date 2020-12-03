@@ -11,15 +11,15 @@
     "mobx",
     "styled-components"
   ],
-  "homepage": "https://github.com/starboardbrowser/starboard.desktop#readme",
+  "homepage": "https://github.com/starboardops/starboard.desktop#readme",
   "main": "build/main.bundle.js",
   "author": "Starboard Operations Inc. <bcamarata0@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starboardbrowser/starboard.desktop.git"
+    "url": "git+https://github.com/starboardops/starboard.desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/starboardbrowser/starboard.desktop/issues"
+    "url": "https://github.com/starboardops/starboard.desktop/issues"
   },
   "scripts": {
     "dev-renderer": "cross-env DEV=1 webpack-dev-server --config webpack.config.renderer.js",
