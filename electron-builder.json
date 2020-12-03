@@ -4,7 +4,7 @@
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
-    "output": "compiled",
+    "output": "starboard-npm-buildoutput",
     "buildResources": "static/icons"
   },
   "files": ["build/**/*", "package.json", "static/**/*"],
