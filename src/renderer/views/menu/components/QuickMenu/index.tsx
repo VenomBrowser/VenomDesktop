@@ -141,6 +141,14 @@ export const QuickMenu = observer(() => {
           {/* TODO: <MenuItem onClick={goToWebUIPage('extensions')}> */}
           <MenuItem
             onClick={goToURL(
+              'https://github.com/starboardops/beta/blob/gh-pages/browser/newest-update-changelog/index.md',
+            )}
+          >
+            <Icon icon={ICON_FIRE} />
+            <MenuItemTitle>Changelog</MenuItemTitle>
+          </MenuItem>
+          <MenuItem
+            onClick={goToURL(
               'https://chrome.google.com/webstore/category/extensions',
             )}
           >
