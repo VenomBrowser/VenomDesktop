@@ -25,9 +25,7 @@ import {
   ICON_EXTENSIONS,
   ICON_DOWNLOAD,
   ICON_FIND,
-  ICON_PRINT,
-  ICON_FOLDER,
-  ICON_WEATHER_DAY_FEW_CLOUDS
+  ICON_PRINT
 } from '~/renderer/constants/icons';
 
 const onFindClick = () => {
@@ -156,22 +154,6 @@ export const QuickMenu = observer(() => {
           >
             <Icon icon={ICON_EXTENSIONS} />
             <MenuItemTitle>Extensions</MenuItemTitle>
-          </MenuItem>
-          <MenuItem
-            onClick={goToURL(
-              'https://weather.com',
-            )}
-          >
-            <Icon icon={ICON_WEATHER_DAY_FEW_CLOUDSS} />
-            <MenuItemTitle>Weather</MenuItemTitle>
-          </MenuItem>
-           <MenuItem
-            onClick={goToURL(
-              'https://github.com/starboardops/starboard.desktop/releases',
-            )}
-          >
-            <Icon icon={ICON_WEATHER_DAY_FEW_CLOUDSS} />
-            <MenuItemTitle>Releases</MenuItemTitle>
           </MenuItem>
            <MenuItem
             onClick={goToURL(
