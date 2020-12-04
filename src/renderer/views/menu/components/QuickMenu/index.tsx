@@ -155,6 +155,14 @@ export const QuickMenu = observer(() => {
             <Icon icon={ICON_EXTENSIONS} />
             <MenuItemTitle>Extensions</MenuItemTitle>
           </MenuItem>
+           <MenuItem
+            onClick={goToURL(
+              'https://starboard.gitbook.io/home',
+            )}
+          >
+            <Icon icon={ICON_TAB} />
+            <MenuItemTitle>Documentation</MenuItemTitle>
+          </MenuItem>
           <Line />
           <MenuItem onClick={onFindInPageClick}>
             <Icon icon={ICON_FIND} />
