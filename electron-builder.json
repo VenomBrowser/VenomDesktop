@@ -1,10 +1,10 @@
 {
-  "appId": "org.starboard.signedpenalty",
-  "productName": "STARBOARD",
+  "appId": "org.starboard.sx",
+  "productName": "Starboard X",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
-    "output": "starboard-npm-buildoutput",
+    "output": "build-files",
     "buildResources": "static/icons"
   },
   "files": ["build/**/*", "package.json", "static/**/*"],
