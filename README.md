@@ -8,9 +8,7 @@ cd /opt
 sudo git clone https://github.com/starboardops/starboard.desktop
 cd starboard.desktop
 npm install
-npm run compile-arm-linux
-npm run compile-arm-mac
-npm run compile-arm-win32
+npm run compile-arm
 ```
 
 (running assumes you already have npm & electron installed. performance is best on a pi 2+. read more about it on our blog. as we don't own any arm devices,
