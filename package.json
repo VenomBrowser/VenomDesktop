@@ -1,8 +1,8 @@
 {
   "name": "starboard",
-  "version": "1.10.0",
+  "version": "1.10.3",
   "sideEffects": false,
-  "description": "Starboard is the most secure and fast browser ever.",
+  "description": "Starboard is the most secure browser out there.",
   "keywords": [
     "web-browser",
     "material",
@@ -13,7 +13,7 @@
   ],
   "homepage": "https://github.com/starboardops/starboard.desktop#readme",
   "main": "build/main.bundle.js",
-  "author": "Starboard Operations Inc. <bcamarata0@gmail.com>",
+  "author": "SX Bundle Signing <bcamarata0@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/starboardops/starboard.desktop.git"
