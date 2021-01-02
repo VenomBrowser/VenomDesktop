@@ -1,6 +1,6 @@
 {
-  "appId": "org.starboard.sx",
-  "productName": "Starboard X",
+  "appId": "io.sx.three",
+  "productName": "SX 3",
   "generateUpdatesFilesForAllChannels": true,
   "asar": true,
   "directories": {
@@ -28,67 +28,67 @@
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "html"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "pdf"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "js"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "stdocx"
     },
     {
       "name": "Document",
-      "description": "Starboard",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "css"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "php"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "htm"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "shtml"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "webp"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "xht"
     },
     {
       "name": "Document",
-      "description": "STARBOARD",
+      "description": "SX 3",
       "role": "Viewer",
       "ext": "xhtml"
     }
